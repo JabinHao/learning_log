@@ -145,7 +145,7 @@ if cwd == '/app' or cwd[:4] == '/temp':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO','https')
 
     # 只允许Heroku托管这个项目
-    ALLOWED_HOSTS = ['learning-log-cn.herokuapp.com']
+    ALLOWED_HOSTS = ['learning-logs-cn.herokuapp.com']
     
     DEBUG = False
     # 静态资产配置
